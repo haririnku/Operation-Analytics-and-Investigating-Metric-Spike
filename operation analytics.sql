@@ -6,7 +6,7 @@ use operation_analytics;
 
 create table job_data(
 job_id int,
-actors_id int,
+actor_id int,
 event varchar(255),
 language varchar(255),
 time_spent int,
